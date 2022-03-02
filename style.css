@@ -243,6 +243,7 @@ section a {
     margin-top: 20px;
     color: black;
     text-transform: capitalize;
+    font-weight: 400;
 }
 
 .fusion-text p {
