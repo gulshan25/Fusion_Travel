@@ -72,9 +72,9 @@ section a {
     text-decoration: none;
 }
 
-.navbar a:hover {
+/* .navbar a:hover {
     color: var(--color-primary);
-}
+} */
 
 .navbar-nav-left {
     text-transform: uppercase;
@@ -126,13 +126,23 @@ section a {
     cursor: pointer;
     display: inline-block;
     background:none;
-    border: 1px solid #fff;
+    border: 1px solid orange;
     border-radius: 50px;
     padding: 7px 16px;
     line-height: 1.2;
     text-align: center;
     text-decoration: none;
 }
+
+.btn-warning {
+    background-color: orange;
+    color: #fff;
+}
+
+/* .btn-warning:hover {
+    background-color: #333;
+} */
+
 
 /* backgrounds */
 
@@ -174,4 +184,51 @@ section a {
 
 .py-lg {
     padding: 40px 0;
+}
+
+.text-left {
+    
+    flex: 1;
+    margin-left: 20px;
+}
+
+.text-left img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin: 50px 0;
+    
+}
+
+.text-left a:nth-child(2) {
+    margin: 0 5px;
+}
+
+.text-left img,
+.text-left a {
+    display: flex;
+    text-decoration: none;
+   
+}
+
+.text-left p {
+    text-transform: capitalize;
+    margin: 5px 5px;
+    position: relative;
+}
+
+.text-left span {
+    text-transform: uppercase;
+    position: absolute;
+    top: 58%;
+    left: 75px;
+    z-index: 10;
+
+    
 }
